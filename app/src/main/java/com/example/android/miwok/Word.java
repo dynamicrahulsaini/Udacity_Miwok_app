@@ -1,8 +1,6 @@
 package com.example.android.miwok;
 
-import android.media.Image;
 import android.support.annotation.NonNull;
-import android.widget.ImageView;
 
 public class Word {
 
@@ -10,17 +8,21 @@ public class Word {
 
     private String mMiwokTranslation = null;
 
-    private int imageResourceId = 0;
+    private int mImageResourceId = 0;
 
-    public Word(String defaultTranslation, String miwokTranslation, int imageId) {
+    private int mAudioResourceId = 0;
+
+    public Word(String defaultTranslation, String miwokTranslation, int imageId, int audioResourceId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
-        imageResourceId = imageId;
+        mImageResourceId = imageId;
+        mAudioResourceId = audioResourceId;
     }
 
-    public Word(String defaultTranslation, String miwokTranslation) {
+    public Word(String defaultTranslation, String miwokTranslation, int audioResourceId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
+        mAudioResourceId = audioResourceId;
     }
 
     public String getDefaultTranslation() {
@@ -33,6 +35,10 @@ public class Word {
     }
 
     public int getImageResourceId() {
-        return imageResourceId;
+        return mImageResourceId;
+    }
+
+    public int getAudioResourceId() {
+        return mAudioResourceId;
     }
 }
