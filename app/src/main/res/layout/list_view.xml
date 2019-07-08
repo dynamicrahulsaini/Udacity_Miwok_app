@@ -5,7 +5,7 @@
     android:id="@+id/item_list_view"
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
-    android:background="@color/tan_white"
+    android:background="#F1C40F"
     android:minHeight="@dimen/list_item_height"
     android:orientation="horizontal">
 
