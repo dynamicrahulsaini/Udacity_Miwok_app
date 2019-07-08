@@ -30,4 +30,6 @@
 
     <!-- Image description for the words -->
     <string name="description">Describe the text visually</string>
+
+    <string name="play_description">Pronunciation play button</string>
 </resources>
