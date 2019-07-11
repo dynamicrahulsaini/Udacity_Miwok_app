@@ -20,9 +20,8 @@
     <!-- Primary dark color of the app (shown in the status bar) -->
     <color name="primary_dark_color">#2F1D1A</color>
 
-
     <!-- Background color of our app -->
-    <color name="tan_white">#FFF7DA</color>
+    <color name="background">#d5e5e0</color>
 
     <!-- Background color for the numbers category -->
     <color name="category_numbers">#FD8E09</color>
@@ -35,4 +34,8 @@
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
+
+    <color name="ripple_color">#CACDD5</color>
+
+    <!--<color name="numbers_ripple_color">#a15903</color>-->
 </resources>

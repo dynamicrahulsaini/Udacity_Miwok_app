@@ -47,6 +47,7 @@ public class PhrasesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.words_list);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //Get Audio Service from the system.
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
